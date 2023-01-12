@@ -1,0 +1,35 @@
+th,
+td,
+table {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 600px;
+}
+
+td,
+th {
+    width: 110px;
+    /* flex-wrap: wrap; */
+}
+
+/* .subtract,
+.add {
+    border: 0;
+} */
+button {
+    border: 0px;
+}
+
+.quantity span {
+    width: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,30 @@
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    width: 100px;
+    height: 40px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* ul {
+    overflow: hidden;
+} */
+
+div {
+    width: 408px;
+    height: auto;
+}
+
+img {
+    width: 408px;
+    display: none;
+}

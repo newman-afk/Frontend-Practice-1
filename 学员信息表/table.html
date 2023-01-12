@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>学员信息表</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <div>
+        <fieldset>
+            <legend>学生录入系统</legend>
+            <p>
+                <label for="stusName">性别</label>
+                <input type="text" name="stusName" class="stusName">
+            </p>
+            <p>
+                <label for="age">年龄</label>
+                <input type="number" name="age" class="age">
+            </p>
+            <p>
+                <label for="gender">性别</label>
+                <select name="gender" id="gender">
+                    <option value="male">男</option>
+                    <option value="female">女</option>
+                </select>
+            </p>
+            <p>
+                <label for="phone">联系方式</label>
+                <input type="tel" name="phone" id="phone">
+            </p>
+            <p>
+                <button>确认提交</button>
+            </p>
+        </fieldset>
+        <table>
+            <thead>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+                <th>联系方式</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="table.js"></script>
+</body>
+
+</html>

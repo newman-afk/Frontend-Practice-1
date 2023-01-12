@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>buyingcar</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buyingcar.css">
+    <script src="../jquery.js"></script>
+</head>
+
+<body>
+    <table class="checkoutPanel">
+        <thead>
+            <tr class="attributes">
+                <th class="allChecked">全选</th>
+                <th>商品名称</th>
+                <th>单价</th>
+                <th>数量</th>
+                <th>小计</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="goods">
+                <td><input class="checkTheProduct" type="checkbox"></td>
+                <td class="goodsName">电脑</td>
+                <td class="unitPrice">200</td>
+                <td class="quantity"><button class="subtract">-</button><span>0</span><button class="add">+</button>
+                </td>
+                <td class="totalPrice">0</td>
+                <td>删除</td>
+            </tr>
+            <tr class="goods">
+                <td><input class="checkTheProduct" type="checkbox"></td>
+                <td class="goodsName">手机</td>
+                <td class="unitPrice">100</td>
+                <td class="quantity"><button class="subtract">-</button><span>0</span><button class="add">+</button>
+                </td>
+                <td class="totalPrice">0</td>
+                <td>删除</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <div>
+        <span>总计：</span>
+        <span class="sum">0</span>
+    </div>
+    <script src="buyingcar.js"></script>
+</body>
+
+</html>

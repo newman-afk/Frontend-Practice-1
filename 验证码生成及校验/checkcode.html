@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>验证码生成及校验</title>
+    <meta name:"author" content="lip">
+    <link rel="stylesheet" href="checkcode.css">
+</head>
+
+<body>
+    <div class="v_code">
+        <div class="code_show">
+            <span class="code" id="checkcode"></span>
+            <a href="#" id="linkbt" onclick='getcode()'>看不清换一张</a>
+        </div>
+        <div class="input_code">
+            <label for="inputcode">验证码：</label>
+            <input type="text" id="inputcode" placeholder="区分大小写">
+            <span id="text_show"></span>
+        </div>
+        <input id="confirm" type="button" value="确认" onclick="confirm()">
+    </div>
+    <script src="checkcode.js"></script>
+</body>
+
+</html>

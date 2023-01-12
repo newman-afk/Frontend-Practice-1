@@ -1,0 +1,15 @@
+.big {
+    width: 400px;
+    font-size: 0;
+}
+
+.small {
+    width: 400px;
+    font-size: 0;
+}
+img{
+    width: 100px;
+}
+#big{
+    width: 400px;
+}

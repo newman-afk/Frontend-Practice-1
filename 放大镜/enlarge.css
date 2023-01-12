@@ -1,0 +1,29 @@
+#img,
+#img img {
+    width: 384px;
+    height: 216px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#enlarge {
+    width: 384px;
+    height: 216px;
+    left: 384px;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+}
+#enlarge img{
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    /* display: none; */
+}
+#box{
+    width: 76.8px;
+    display: none;
+    height: 43.2px;
+    background: rgba(198, 68, 68, 0.3);
+    position: relative;
+}

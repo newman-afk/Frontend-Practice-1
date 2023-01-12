@@ -1,0 +1,15 @@
+td {
+    width: 50px;
+    height: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: '仿宋';
+    font-size: xx-small;
+    margin: 1px;
+    padding: 1px;
+    border: 1px solid red;
+}
+
+.clicked {
+    background-color: antiquewhite;
+}
